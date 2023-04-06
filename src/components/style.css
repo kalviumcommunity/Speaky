@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-size: contain;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(45, 45, 45);
+    height: 7.5vh;
+    width: 100vw;
+    position: fixed;
+}
+.navbar  p
+{
+    margin-left: 84vw;
+    margin-top: 2vh;
+    font-size: 2.7vh;
+    color: white;
+    position: relative;
+}
+.navbar  h1
+{
+    font-size: 4vh;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Irish Grover', cursive;
+    color: white;
+}
+.main-content
+{
+    display: flex;
+    flex-direction: column;
+}
+.main-content h1 
+{
+    margin-top: 35vh;
+    margin-left: 6vw;
+    font-size: 5vh;
+    padding-bottom: 2vh;
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+}
+.main-content p
+{
+    margin-left: 6vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 2.8vh;
+    color: white;
+}
+.main-content button
+{
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 6vw;
+    width: 15vw;
+    font-size: 2.5vh;
+    border-radius: 10px;
+    background-color: #EED2D2;
+    font-family: 'Jockey One', sans-serif;
+}
+.main-content img
+{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}  
+  /* Main container styling */
+.working-page-container 
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Background image styling */
+img 
+{
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+/* Textbox area styling */
+.textbox-area 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 20px 20px 20px;
+    width: 80%;
+    /* max-width: 800px; */
+    color: white;
+}
+
+.textbox-1,
+.textbox-2 
+{
+    flex: 1;
+    margin: 125px 20px 20px 20px;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    height: 50vh;
+    width: 10vw;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px 1px rgba(249, 246, 246, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.textbox-1 p,
+.textbox-2 p 
+{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* Instructions styling */
+.instructions 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.instructions p 
+{
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: white;
+    /* position: fixed; */
+}
+
+.instructions button 
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.instructions button:hover 
+{
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.instructions button:active 
+{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+#reset-button 
+{
+    background-color: #333;
+    color: white;
+}
+
+#reset-button:hover 
+{
+    background-color: #999;
+}
+
+#next-button
+{
+    background-color: #333;
+    color: #fff;
+}
+
+#next-button:hover 
+{
+    background-color: #666;
+}
+
+#main-tagline
+{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    margin-left: 3vw;
+    margin-top: 17vh;
+    color: white;
+}
+
+#final-statement
+{
+    font-size: 25px;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    color: white;
+}
+.result-textbox
+{
+    display: flex;
+    width: 77vw;
+    margin-left: 12vw;
+}
+.result-page-container
+{
+    position: fixed;
+    margin-left: 11.2vw;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.result-textbox-1,
+.result-textbox-2 
+{
+    flex: 1;
+    margin: 347px 20px 20px 20px;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    height: 56vh;
+    width: 10vw;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px 1px rgba(249, 246, 246, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.result-textbox-1 p,
+.result-textbox-2 p 
+{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: white;
+}
+.Image img
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.content h1
+{
+    color: white;
+    position: fixed;
+    margin-top: 19vh;
+    margin-left: 14vw;
+    font-family: 'Mirza', cursive;
+    font-size: 40px;
+}
+.content p
+{
+    color: white;
+    position: fixed;
+    font-family: 'Mirza', cursive;
+    margin-top: 27vh;
+    margin-left: 20.3vw;
+    opacity: 70%;
+}
+#name-box
+{
+    position: fixed;
+    margin-top: 38vh;
+    margin-left: 14vw;
+    text-align: center;
+    height: 4vh;
+    width: 20vw;
+    border: none;
+    border-bottom: 4px dashed white;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    outline: none;
+}
+#name-box::placeholder
+{
+    color: white;
+}
+#email-box
+{
+    position: fixed;
+    margin-top: 50vh;
+    margin-left: 14vw;
+    text-align: center;
+    height: 4vh;
+    width: 20vw;
+    border: none;
+    border-bottom: 4px dashed white;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    outline: none;
+}
+#email-box::placeholder
+{
+    color: white;
+}
+#password-box
+{
+    position: fixed;
+    margin-top: 62vh;
+    margin-left: 14vw;
+    text-align: center;
+    height: 4vh;
+    width: 20vw;
+    border: none;
+    border-bottom: 4px dashed white;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    outline: none;
+}
+#password-box::placeholder
+{
+    color: white;
+}
+.input-boxes button
+{
+    position: fixed;
+    height: 5vh;
+    width: 20vw;
+    margin-top: 75vh;
+    margin-left: 14vw;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(200, 175, 175);
+    font-family: 'Mirza', cursive;
+    color: black;
+}
+#eye
+{
+    position: fixed;
+    margin-top: 62vh;
+    margin-left: 32vw;
+    height: 5px;
+    width: 5px;
+    color: white;
+}
+
+@media screen and (max-width: 768px)
+{
+    .textbox-area
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .textbox-1
+    {
+        border: none;
+        height: 2vh;
+        width: 100%;
+        margin-top: -27px;
+    }
+    .textbox-1 p 
+    {
+        font-size: 14px;
+    }
+    .textbox-2 
+    {
+        height: 34vh;
+        width: 78%;
+        border-radius: 5px;
+        position: fixed;
+        margin-top: 73vh;
+        color: green;
+    }
+    .instructions
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 35vh;
+    }
+    .instructions p 
+    {
+        font-size: 15px;
+    }
+    .instructions button 
+    {
+        height: 35px;
+        width: 111px;
+        margin-top: 2px;
+    }
+    .functional-buttons 
+    {
+        display: flex;
+    }
+    #main-tagline
+    {
+        font-size: 27px;
+        margin-top: 80px;
+        margin-left: 83px;
+    }
+    #final-statement
+    {
+        font-size: 23px;
+        margin-left: 66px;
+    }
+    .result-textbox
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .result-textbox-1
+    {
+        border: none;
+        height: 2vh;
+        width: 100%;
+        margin-top: -27px;
+    }
+    .result-textbox-1 p 
+    {
+        font-size: 14px;
+    }
+    .result-textbox-2
+    {
+        height: 34vh;
+        width: 78%;
+        border-radius: 5px;
+        position: fixed;
+        margin-top: 57vh;
+        margin-left: 2px;
+        color: green;
+    }
+}
+#loginButton
+{
+    height: 34px;
+    width: 83px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #EED2D2;
+    margin: 20px 0px 0px 80vw;
+}
+#account-icon
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 15px 1px 1px 175vh;
+}
+#logoutButton
+{
+    height: 34px;
+    width: 83px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #EED2D2;
+    margin: 20px 0px 0px 80vw;
+}
